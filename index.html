@@ -1,114 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>vulkd.com</title>
-    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQAAAAA3bvkkAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==" type="image/png">
-    <style>
-        * {
-            font-family: sans-serif;
-            font-size: 1rem;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-        }
-        body {
-            padding: 2rem;
-            position: relative;
-        }
-        h1 {
-            background: -webkit-linear-gradient(left, #fff 49%, #000 50%, #fff 51%);
-            background-size: 200% auto;
-            animation: gradient 5s ease infinite;
-            border-radius: 0%;
-            width: 3rem;
-            height: 3rem;
-            box-shadow: inset 0px 0px 0px 10px black;
-            transform: rotate(-90deg);
-        }
-        a {
-            color: #000;
-            text-align: justify;
-        }
-        a:hover {
-            opacity: 0.314;
-        }
-        br + span {
-          max-width: 320px!important;
-          width: 10vw;
-          height: 8px;
-          display: inline-block;
-          margin-right: 1rem;
-      }
-      i, i > a {
-        color: #ccc;
-    }
-    @keyframes gradient {
-        0% {
-            background-position: 0% 50%;
-        }
-        50% {
-            background-position: 100% 50%;
-        }
-        100% {
-            background-position: 0% 50%;
-        }
-    }
-</style>
-</head>
-<body>
-    <div>
-        <h1></h1>
-        <br>
-        <b>Articles</b>
-        <br>
-        <span style="background: black;"></span><a href='/articles/3d-underwater-maps/index.html'>Underwater 3D Maps</a>
-        <br>
-        <span style="background: black;"></span><a href='/articles/polar-projections-with-mapbox/index.html'>Antarctica in Mapbox</a>
-        <br>
-        <br>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>vulkd.com</title>
+        <style>
+            * {
+                font-size: 1.3rem;
+                text-align: center;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+                color: #fff;
+                background: #000;
+            }
+            a {
+                display: block;
+                text-decoration: none;
+            }
+            a:hover {
+                color: orange;
+            }
+            i * {
+                color: #333;
+            }
+            img {
+                margin: 3.8rem auto 1.6rem auto;
+                border-radius: 50%;
+                width: 14.6vw;
+                height: 23.6vw;
+            }
+            b {
+                display: block;
+                margin-top: 1.6rem;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="pfp.jpg" alt="Profile Picture" />
+
+        <b>Contact</b>
+        <a href="mailto:hello@vulkd.com">Mail</a>
+
+        <b>Writing</b>
+        <a href="https://vulkd.com/articles/3d-underwater-maps/index.html">Underwater 3D Maps</a>
+        <a href="https://vulkd.com/articles/polar-projections-with-mapbox/index.html">Antarctica in Mapbox</a>
+
         <b>Projects</b>
-        <br>
-        <span style="background: aquamarine;"></span><a href='https://tintscope.com'>Tintscope</a>
-        <br>
-        <span style="background: paleturquoise"></span><a href='https://apps.apple.com/au/app/kunanyi/id6450945584'>Kunanyi</a>
-        <br>
-        <span style="background: black;"></span><a href='https://apps.apple.com/au/app/front-qr/id1553223443'>Front QR</a>
-        <br>
-        <span style="background: violet;"></span><a href='https://apps.apple.com/au/app/party-lights/id6450882002'>Party Lights</a>
-        <br>
-        <span style="background: red;"></span><a href='https://apps.apple.com/au/app/red/id6451076864'>Red</a>
-        <br>
-        <span style="background: deeppink;"></span><a href='https://maplytica.com'>Maplytica</a>
-        <br>
-        <br>
+        <a href="https://apps.apple.com/au/app/kunanyi/id6450945584">Kunanyi</a>
+        <a href="https://tintscope.com">Tintscope</a>
+        <a href="https://apps.apple.com/au/app/front-qr/id1553223443">Front QR</a>
+        <a href="https://maplytica.com">Maplytica</a>
+
         <b>Sold</b>
         <i>
-            <br>
-            <span style="background: #ccc;"></span><a href=' https://www.tailwindjobs.com'>Tailwind CSS Jobs Board</a>
-            <br>
-            <span style="background: #ccc;"></span>Radius Finder
-            <br>
-            <span style="background: #ccc;"></span><a href=' https://apps.apple.com/au/app/laser-compass/id1525999352'>Laser Compass</a>
-            <br>
-            <span style="background: #ccc;"></span><a href='https://apps.apple.com/au/app/superzoom-camera/id1546035097'>Super Zoom Camera</a>
-            <br>
-            <br>
+            <a href="https://tailwindjobs.com">Tailwind CSS Jobs </a>
+            <a href="https://apps.apple.com/us/app/id1520003080">Radius Finder</a>
+            <a href=" https://apps.apple.com/au/app/laser-compass/id1525999352">Laser Compass</a>
+            <a href="https://apps.apple.com/au/app/superzoom-camera/id1546035097">Super Zoom Camera</a>
         </i>
+
         <b>Elsewhere</b>
-        <br>
-        <span style="background: black;"></span><a href='https://github.com/vulkd'>Github</a>
-        <br>
-        <span style="background: lightblue;"></span><a href='https://twitter.com/vulkd'>Twitter</a>
-        <br>
-        <span style="background: steelblue;"></span><a href='https://www.linkedin.com/in/chrisrobtaylor'>LinkedIn</a>
-        <br>
-        <span style="background: orange;"></span><a href='https://news.ycombinator.com/user?id=vulkd'>Hacker News</a>
-        <br>
-        <span style="background: green;"></span><a href='https://twitter.com/webdev42'>WD42</a>
-        <br>
-        <span style="background: white;"></span><a href='mailto:hello@vulkd.com'>Contact</a>
-    </div>
-</body>
+        <a href="https://news.ycombinator.com/user?id=vulkd">Hacker News</a>
+        <a href="https://github.com/vulkd">Github</a>
+        <a href="https://x.com/vulkd">X</a>
+    </body>
 </html>
